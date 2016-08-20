@@ -7,6 +7,13 @@
       "version" : "1.0.0",
       "location" : "conquestreforgedbasic.json",
       "priority" : 0
+    },
+    {
+      "title" : "Conquest Reforged (advanced)",
+      "name" : "ConquestReforgedAdvanced",
+      "version" : "1.0.0",
+      "location" : "conquestreforgedadvanced.json",
+      "priority" : 0
     }
   ]
 }
