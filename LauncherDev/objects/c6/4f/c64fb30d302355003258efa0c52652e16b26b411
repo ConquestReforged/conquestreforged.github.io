@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gui xmlns:gb="http://eq2online.net/macros/guibinding" xmlns:gc="http://eq2online.net/macros/guiconfiguration">
+    <!-- GUI slot bindings -->
+    <gb:bindings>
+        <gb:binding bottom="0" left="0" right="0" slot="inchat" top="0">inchat</gb:binding>
+        <gb:binding bottom="0" left="0" right="0" slot="playback" top="0">default</gb:binding>
+        <gb:binding bottom="0" left="0" right="0" slot="scoreboard" top="0">default</gb:binding>
+        <gb:binding bottom="35" left="2" right="2" slot="ingame" top="14">default</gb:binding>
+        <gb:binding bottom="0" left="0" right="0" slot="indebug" top="0">ingame</gb:binding>
+    </gb:bindings>
+    <!-- Config for layout 'default' -->
+    <gc:guilayout columns="6" display="default" dots="false" grid="false" name="default" padding="2" rows="10">
+        <gc:controls/>
+    </gc:guilayout>
+    <!-- Config for layout 'inchat' -->
+    <gc:guilayout columns="14" display="Chat Commands" dots="false" grid="false" name="inchat" padding="2" rows="16">
+        <gc:controls>
+            <gc:button id="257" name="size depth material" x="4" y="0">
+                <background>#B0000000</background>
+                <colour>#00FF00</colour>
+                <hide>0</hide>
+                <hotkey>0</hotkey>
+                <sticky>0</sticky>
+                <text>cs laser</text>
+                <visible>1</visible>
+            </gc:button>
+            <gc:button id="258" name="size faces strength" x="5" y="0">
+                <background>#B0000000</background>
+                <colour>#00FF00</colour>
+                <hide>0</hide>
+                <hotkey>0</hotkey>
+                <sticky>0</sticky>
+                <text>cs erode</text>
+                <visible>1</visible>
+            </gc:button>
+            <gc:button id="259" name="size faces strength" x="6" y="0">
+                <background>#B0000000</background>
+                <colour>#00FF00</colour>
+                <hide>0</hide>
+                <hotkey>0</hotkey>
+                <sticky>0</sticky>
+                <text>cs fill</text>
+                <visible>1</visible>
+            </gc:button>
+            <gc:button id="260" name="size block length" x="7" y="0">
+                <background>#B0000000</background>
+                <colour>#00FF00</colour>
+                <hide>0</hide>
+                <hotkey>0</hotkey>
+                <sticky>0</sticky>
+                <text>cs spike</text>
+                <visible>1</visible>
+            </gc:button>
+            <gc:button id="261" name="angle resolution anzahl (leer wenn nicht)" x="8" y="0">
+                <background>#B0000000</background>
+                <colour>#00FF00</colour>
+                <hide>0</hide>
+                <hotkey>0</hotkey>
+                <sticky>0</sticky>
+                <text>cs rotate</text>
+                <visible>1</visible>
+            </gc:button>
+            <gc:button id="262" name="radius material austauschmaterial" x="13" y="6">
+                <background>#B0000000</background>
+                <colour>#00FF00</colour>
+                <hide>0</hide>
+                <hotkey>0</hotkey>
+                <sticky>0</sticky>
+                <text>replacenear</text>
+                <visible>1</visible>
+            </gc:button>
+            <gc:button id="263" name="BUTTON 263" x="13" y="9">
+                <background>#B0000000</background>
+                <colour>#00FF00</colour>
+                <hide>0</hide>
+                <hotkey>0</hotkey>
+                <sticky>0</sticky>
+                <text>pos1</text>
+                <visible>1</visible>
+            </gc:button>
+            <gc:button id="264" name="BUTTON 264" x="13" y="10">
+                <background>#B0000000</background>
+                <colour>#00FF00</colour>
+                <hide>0</hide>
+                <hotkey>0</hotkey>
+                <sticky>0</sticky>
+                <text>pos2</text>
+                <visible>1</visible>
+            </gc:button>
+            <gc:button id="265" name="size material density hollow" x="9" y="0">
+                <background>#B0000000</background>
+                <colour>#00FF00</colour>
+                <hide>0</hide>
+                <hotkey>0</hotkey>
+                <sticky>0</sticky>
+                <text>cs fragment</text>
+                <visible>1</visible>
+            </gc:button>
+            <gc:button id="266" name="size strength" x="10" y="0">
+                <background>#B0000000</background>
+                <colour>#00FF00</colour>
+                <hide>0</hide>
+                <hotkey>0</hotkey>
+                <sticky>0</sticky>
+                <text>cs bump</text>
+                <visible>1</visible>
+            </gc:button>
+            <gc:button id="267" name="line" x="13" y="5">
+                <background>#B0000000</background>
+                <colour>#00FF00</colour>
+                <hide>0</hide>
+                <hotkey>0</hotkey>
+                <sticky>0</sticky>
+                <text>line</text>
+                <visible>1</visible>
+            </gc:button>
+            <gc:button id="268" name="BUTTON 268" x="13" y="12">
+                <background>#B0000000</background>
+                <colour>#FF021A</colour>
+                <hide>0</hide>
+                <hotkey>0</hotkey>
+                <sticky>1</sticky>
+                <text>rotate 90</text>
+                <visible>1</visible>
+            </gc:button>
+            <gc:button id="269" name="BUTTON 269" x="13" y="14">
+                <background>#B0000000</background>
+                <colour>#FF020E</colour>
+                <hide>0</hide>
+                <hotkey>0</hotkey>
+                <sticky>1</sticky>
+                <text>paste -a</text>
+                <visible>1</visible>
+            </gc:button>
+            <gc:button id="270" name="BUTTON 270" x="13" y="13">
+                <background>#B0000000</background>
+                <colour>#FF041C</colour>
+                <hide>0</hide>
+                <hotkey>0</hotkey>
+                <sticky>1</sticky>
+                <text>copy</text>
+                <visible>1</visible>
+            </gc:button>
+            <gc:button id="271" name="BUTTON 271" x="13" y="15">
+                <background>#B0000000</background>
+                <colour>#FF000C</colour>
+                <hide>0</hide>
+                <hotkey>0</hotkey>
+                <sticky>1</sticky>
+                <text>undo</text>
+                <visible>1</visible>
+            </gc:button>
+            <gc:button id="272" name="BUTTON 272" x="0" y="0">
+                <background>#B0000000</background>
+                <colour>#00FF00</colour>
+                <hide>0</hide>
+                <hotkey>0</hotkey>
+                <sticky>1</sticky>
+                <text>tpaccept</text>
+                <visible>1</visible>
+            </gc:button>
+            <gc:button id="273" name="Replace" x="13" y="7">
+                <background>#B0000000</background>
+                <colour>#00FF00</colour>
+                <hide>0</hide>
+                <hotkey>0</hotkey>
+                <sticky>0</sticky>
+                <text>Replace Stairs</text>
+                <visible>1</visible>
+            </gc:button>
+            <gc:slider colspan="4" id="274" name="SLIDER 274" value="34" x="0" y="15">
+                <background>AA000000</background>
+                <binding/>
+                <calcmax>0</calcmax>
+                <calcmin>0</calcmin>
+                <colour>00FF00</colour>
+                <hotkeydec>0</hotkeydec>
+                <hotkeyinc>0</hotkeyinc>
+                <max>100</max>
+                <min>0</min>
+                <visible>1</visible>
+            </gc:slider>
+        </gc:controls>
+    </gc:guilayout>
+    <!-- Config for layout 'ingame' -->
+    <gc:guilayout columns="3" display="ingame" dots="false" grid="false" name="ingame" padding="1" rows="5">
+        <gc:metrics>
+            <gc:column id="0" width="324"/>
+        </gc:metrics>
+        <gc:controls>
+            <gc:textarea id="256" name="debug" rowspan="2" x="2" y="0">
+                <colour>#00FF00</colour>
+                <lifespan>200</lifespan>
+                <visible>1</visible>
+            </gc:textarea>
+        </gc:controls>
+    </gc:guilayout>
+</gui>
