@@ -45,7 +45,7 @@ blocks {
         net.minecraft.block.BlockLeaves
         forestry.arboriculture.gadgets.BlockLeaves
         thaumcraft.common.blocks.BlockMagicalLeaves
-        net.creativerealmsmc.conquest.blocks.BlockImplementations.LeavesBlock
+        net.creativerealmsmc.conquest.blocks.LeavesBlock
      >
     S:leavesBlacklist <
      >
@@ -179,7 +179,7 @@ leaves {
     D:hOffset=0.2
     D:vOffset=0.1
     D:size=1.4
-    B:dense=true
+    B:dense=false
 }
 
 
